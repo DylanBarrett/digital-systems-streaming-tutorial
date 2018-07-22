@@ -35,14 +35,14 @@
   * ### [OBS](https://obsproject.com/)
     OBS or "Open Broadcast Software" is one of the more popular streaming softwares available, especially on Twitch. This is the software I will be using in my example later on. OBS allows for countless scenes, keybinding for everything, easy to make re-usable sources, along with a plethora of settings. OBS also allows for plugins and other 3rd party services to create add-ons for their software (see [StreamsLabs](#streamlabs) below in tools). Along with streaming, you can also record. You can do this at the same time or completely seperately. Personally I use OBS for recording as well since all your scenes can be used for either.
 
-    As a note of warning OBS can be pretty resource intensive if you are not careful. Since it has so many options, it can take a lot of fine tuning/optimizations to create a good stream experience for your viewers while keeping your computer from seeing blue. Some of the below examples are more lightweight and better for rigs that can't handle OBS + an activity (see [Special Setups](#special-setups) below as well).
+    As a note of warning OBS can be pretty resource intensive if you are not careful. Since it has so many options, it can take a lot of fine tuning/optimizations to create a good stream experience for your viewers while keeping your computer from seeing blue. Some of the below examples are more lightweight and are better for rigs that can't handle OBS + an activity (also see [Special Setups](#special-setups) below as well).
 
   * ### [XSplit](https://www.xsplit.com/)
     XSplit is a great alternative to OBS. It has been around for a very long time as a resource for gamers, originally used just for recording. Currently with XSplit you have two options: Broadcaster or Gamecaster.
 
     Broadcaster is the more verbose of the two services XSplit provides. It is meant for those looking for a more professional & advanced setup that allows for a great amount of customizability. Broadcaster can be used for either streaming or recording.
 
-    Gamecaster allows for easy setup and go streaming for gamers. It has easy access to many stream controls, plugins, and social media. It may have less customizable compared to Broadcaster, but it's widget system allows for everything you might need to get your stream up and running very quickly.
+    Gamecaster allows for easy setup and go streaming for gamers. It has easy access to many stream controls, plugins, and social media. It may be less customizable compared to Broadcaster, but it's widget system allows for adding everything you might need to get your stream up and running quickly.
 
     XSplit as compared to OBS or Bebo isn't free though. If you want to use it commercially you will have pay at most $8.32 a month (based on current pricing of a 3 month license). You can use it for free of course, but the capabilities are hindered.
 
