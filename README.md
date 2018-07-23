@@ -140,4 +140,4 @@
   Twitch themselves have a article going into depth about how to go about setting up dual pcs for streaming. https://help.twitch.tv/customer/en/portal/articles/1988680-broadcasting-with-two-computers
 
 ## Full Startup Guide
-
+  The guide can be found [here](./startup-guide.md). It goes over how to get setup on Twitch using OBS + StreamLabs. I will not be using the integrated StreamLabs + OBS combo, just for the sake of showing how to do it normally (the desktop app is still technically in beta).
