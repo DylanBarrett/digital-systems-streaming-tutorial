@@ -10,8 +10,8 @@
   * [Tools](#tools)
   * [Specs (Hardware/Internet)](#specs)
   * [Peripherals (Mics/Cameras/etc.)](#peripherals)
-  * [Full Startup Guide](#full-startup-guide)
   * [Special Setups](#special-setups)
+  * [Full Startup Guide](#full-startup-guide)
 
 ## Platforms
   * ### [Twitch](https://twitch.tv/)
@@ -47,18 +47,36 @@
     XSplit as compared to OBS or Bebo isn't free though. If you want to use it commercially you will have pay at most $8.32 a month (based on current pricing of a 3 month license). You can use it for free of course, but the capabilities are hindered.
 
   * ### [Bebo](https://bebo.com/)
-    Bebo is a new streaming app that is trying to making streaming easier and less messy compared to it's competitors. Bebo combines all the best plugins, extensions, and services right into it's app. This makes it a one stop shop for getting up and running with your stream. You can make use of scenes, chat, stats, alerts, and your video feed all on one screen. Plus it's layout is completely customizable. Bebo's integration with a lot of your favorite apps makes it a great new comer into the realm of streaming software and is definitely one I am going to keep my eye on.
+    Bebo is a new streaming app that is trying to making streaming easier and less messy compared to its competitors. Bebo combines all the best plugins, extensions, and services right into its app. This makes it a one stop shop for getting up and running with your stream. You can make use of scenes, chat, stats, alerts, and your video feed all on one screen. Plus it's layout is completely customizable. Bebo's integration with a lot of your favorite apps makes it a great new comer into the realm of streaming software and is definitely one I am going to keep my eye on.
 
 ## Tools
-  * ###
+  * ### [StreamLabs](https://streamlabs.com/)
+    StreamLabs is one of the most popular stream tools available currently (slightly better or tied with [StreamElements](#streamelements)). It is used by a lot of the top streamers on Twitch. This will be the tool I will be implementing in my [Full Start Guide](#full-start-guide). 
+    
+    StreamLabs allows for easy to use alerts, stats, and chat bots. StreamLabs also has a full desktop app that is integrated ontop of OBS allowing for the ultimate streaming experience. This desktop app comes with 1000s of free themes and can help you get up and running quick.
+    
+    StreamLabs integration with OBS allows for better game specific video encoding and less CPU usage on average. Along with this the desktop app allows for a single live view of everything going on with your app: Video feed, chat, stats, alerts, and OBS settings. 
+
+    Unfortunately the desktop app is only available for Windows, while OBS in general is available for Mac and Linux as well. You can also use the website version, but it obviously won't be integrated into OBS for you. The website version is still fantastic and provides a similar live dashboard with alerts and settings.
+
+  * ### [StreamElements](https://streamelements.com/)
+    StreamElements is very similar in terms of functionality provided to its users compared to StreamLabs. Both of the services are extremely good and its purely up to your discretion which one you pick up and stick with. 
+
+    StreamElements comes with a handy customizable chatbot. It has a cool module system that allows for drag and drop functionality for making your chatbot better in all sorts of ways. It also has a vast library of themes to get your stream up and running, while looking good in the process. It also has a custom overlay system that boats "unrivaled management of your overlays". It allows for saving of setups to your account so you can stream anywhere and everywhere you have an internet connection. 
+
+  * ### [Muxy](https://muxy.io/)
+    Muxy is more unique in that it isn't as large as the two services mentioned above but it does very well in its niche userbase. It has great custom alerts, cheer cups, and plenty of extensions to help you and your stream. It has great integration with Esports and Brand analytics; great for teams or event organizers. 
+
+    Muxy also has an extensive development kit that allows for a lot of customizability in creating twitch extensions. They have a lot of templates you can use, allow for the creation of your own, or you can even hire them out for special requests.
 
 ## Specs
-  * ###
+
 
 ## Peripherals
 
 
+## Special Setups
+
+
 ## Full Startup Guide
 
-
-## Special Setups
