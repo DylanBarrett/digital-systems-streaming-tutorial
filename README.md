@@ -70,7 +70,46 @@
     Muxy also has an extensive development kit that allows for a lot of customizability in creating twitch extensions. They have a lot of templates you can use, allow for the creation of your own, or you can even hire them out for special requests.
 
 ## Specs
+  The core parts of your spec for streaming are going to be your CPU and GPU.
 
+  ### CPU
+  The CPU is probably the most important component for streaming. It allows for the encoding of your game frames that are being sent to your streaming platform. If your CPU isn't good enough and you crank up your encoding your gameplay will suffer, less encoding and your gameplay will be better but your stream quality will be worse. It can be a hard sword to balance between good encoding and good FPS. You will want to pour the majority of your budget into your CPU and I would only recommend getting Intel Core i7's or better. The more cores you can get, the faster your encoding will be since the work loads are split into different threads. Anything above an i7 in the 4000 range will be sufficient for streaming. Obviously if you get can get better, than get better. **Always** remember the more cores the better even if it means getting an older CPU compared to a newer version with less cores.
+  
+  I **would not** recommend AMD for streaming since even the newest have low IPC performance compared to even 3-4 year old Intel CPUs.
+
+  ### GPU
+  The second most important part of streaming would be your GPU. If you are using any of the above streaming softwares then they will be eating at your GPU to do compositing of layers, scaling, and other actions. If your GPU isn't good enough this will start heavily affecting your FPS in your games as well and start ruining any quality you have in your stream. Nvidia or AMD are fine for GPUs. Anything above a GTX 700 or Radeon 7000 will be sufficient.
+
+  If you want to be playing the newest and flashiest games though, you may need to consider investing more and getting a more top of the line GPU to keep your FPS and Quality at a solid level.
+
+  ### RAM
+  Most streaming apps can be very memory intensive (although this has gotten better with time and plenty of updates). I would suggest having **at least** 8 GB of RAM. If you can splurge for 16 GB all the better. This will allow you to push the boundaries of streaming quality while still being able to run everything else (games, browsers, etc...). This isn't as important nowadays, but if your software (OBS for example) has a lot of plugins it can start to eat up memory. It really depends on the type of user you are with how much RAM you will need. More often than not 8GB of RAM will be plenty, but in some cases more could be needed. RAM is one of the less important parts, so make sure to focus on your CPU and GPU first.
+
+  ### Motherboard
+  Motherboards don't have much of an impact on your streaming performance. Just make sure to get on that is reliable since you may be streaming for long periods of time. Also, take into consideration if you want to overclock your CPU you may want to look into motherboards that are better at this.
+  
+  ### Internet
+  Along with hardware specs you need to take into account your internet. Your internet can literally make or break your stream. No matter how fancy your computer/setup is if you don't have reliable and good enough rates, you won't be streaming at a good quality. The better the upload speed you can get, the higher the bitrate you can stream at. Careful though, because if you go too high people with lower download rates may not be able to view your stream without buffering a lot.
+ 
+  I don't know about you but in general I try to avoid more complex math if I can. So, I usually use a [online calculator](https://www.chow-bryant.com/services/social-media-marketing/live-streaming/live-streaming-calculator/) of sorts to figure out my optimal streaming bit rate. Using the link the online calculator I provided, you can enter in your information and get a good idea of what kind of internet plan you are going to have to shell out for. 
+
+  In general if you want to save on having a lower Upload speed, downsizing your video resolution can be a great asset to you. I usually opt for downscaling to 1280x720, but it might take experimentation with different resolutions to find one that suits your needs. 
+  
+  Your fps is really going to depend on what type of game you are playing and each have their trade-offs in quality vs fluidity. I either go with 30 fps for FPS games or any game with a lot of particle effects (like an mmo or similar). With games that are slower or have a lot of still frames (think card games or point&clicks) 60 fps will help with overall quality of each frame. Obviously if you can afford the higher bitrate try to stream at 60fps always since your viewers will get much better quality & fluidity.
+
+  I usually recommend a bitrate in the 3000s for good quality and less choppyness, so using the max audio bit rate of 96 (at least for twitch's recommendations) you end up with a video bit rate at around 100 less than your full stream bitrate.
+
+  So for example if I put in some of the examples above:
+   * 1280x720
+   * 30 fps
+   * 96 audio bit rate
+  I end up with a video bit rate of around 2850 and a required internet Upload plan of 3.576 Mbps. Earlier I recommended around 3000-4000 for most people. This is because the higher bitrate after your minimum will help reduce choppyness of frames for your viewers.
+
+  With a 3500 bitrate I would recommend around a 5 Mbps upload plan. Nothing outrageous, but still very necessary. If you want to start streaming in full 1920x1080 with 60 fps it the Mbps start to add up fast.
+
+  In terms of download rate, just make sure your rates/ping are good enough and consistent enough to be a good viewing and playing experience for everyone. Plus if you ever need to download a game on the fly, having 100 Mbps down can really help tackle that problem. 
+  
+  Also **please** make sure to vet your ISPs thoroughly and get familiar with calling their support lines if necessary. Having your internet throttled or go out in the middle of a stream can be embarrassing for starters but also catastrophic for maintaining viewership.
 
 ## Peripherals
 
