@@ -103,21 +103,41 @@
    * 1280x720
    * 30 fps
    * 96 audio bit rate
-  I end up with a video bit rate of around 2850 and a required internet Upload plan of 3.576 Mbps. 
-  
-  Earlier I recommended around 3000-4000 for most people. This is because the higher bitrate after your minimum will help reduce choppyness of frames for your viewers.
 
-  With a 3500 bitrate I would recommend around a 5 Mbps upload plan. Nothing outrageous, but still very necessary. If you want to start streaming in full 1920x1080 with 60 fps it the Mbps start to add up fast.
+  I end up with a video bit rate of around 2850 and a required internet Upload plan of 3.576 Mbps. Earlier I recommended around 3000-4000 for most people. This is because the higher bitrate after your minimum will help reduce choppyness of frames for your viewers. With a 3500 bitrate I would recommend around a 5 Mbps upload plan. Nothing outrageous, but still very necessary. If you want to start streaming in full 1920x1080 with 60 fps it the Mbps start to add up fast.
 
   In terms of download rate, just make sure your rates/ping are good enough and consistent enough to be a good viewing and playing experience for everyone. Plus if you ever need to download a game on the fly, having 100 Mbps down can really help tackle that problem. 
   
   Also **please** make sure to vet your ISPs thoroughly and get familiar with calling their support lines if necessary. Having your internet throttled or go out in the middle of a stream can be embarrassing for starters, but also catastrophic for maintaining viewership.
 
 ## Peripherals
+  ### Audio
+  #### Mic
+  Your mic is going to be an important part of your streaming setup and spending the extra money here can really help you seem more professional. I would **highly** recommend getting an actual professional grade mic with a pop filter and the works. One that is on a moveable stand can help a lot with adjusting distance and position.
 
+  Headset mics can work, if you have no other options. Just be aware that a lot of background noise might be picked up, which can be annoying for viewers. Having a crisp clear voice while streaming makes the experience all the better. In the (Startup Guide)[#full-startup-guide] I go into methods for making a headset mic work decently well.
+
+  The actual mic itself is up to you and the amount of money you are willing to spend. Company wise I will always recommend [Audio Technica](https://www.audio-technica.com/cgi-bin/product_search/wired_mics/mics_by_type.pl?product_type=Microphones%3A+Side-address&lang=eng). That link has a good list of side-address mics which will be your best best. This will help with only picking up your voice and limit background noise. Make sure to get a pop filter and a long enough mount.
+
+  #### Mixer
+  In many cases a mixer can be helpful as well. It can help monitor audio levels, limit peaking, and do a lot of filtering/cleaning up of audio for you. Using this would be opposed to using a lot of the settings in OBS, but with better quality usually. Again I would recommend against using Behringer mixers since a lot of users report low quality with their preamps and faders.
+
+  I would suggest mainly getting some kind of USB mixer, since it consolidates all inputs into one master stereo, which can be very useful. Plus it obviously uses an USB output. [Mackie](https://www.amazon.com/Mackie-Mix-Mix8-8-Channel-Mixer/dp/B00ND1KGEI/ref=sr_1_1?s=musical-instruments&ie=UTF8&qid=1454090497&sr=1-1&keywords=mackie+mixer) is supposedly a decent enough company, you may want to do your own research though.
+
+  You may also want to consider using a [Virtual Mixer](https://www.google.com/search?q=virtual+mixer&oq=Virtual+mixer&aqs=chrome.0.0l6.1512j0j4&sourceid=chrome&ie=UTF-8). This will mean using a program on your computer instead of a physical device. This can be easier if you don't need to have a ton of different physical mics/cameras running through one device. So, if you are just starting out this may be the best path.
+
+  ### Camera
+  In the current age most people will expect to see a facecam in your stream. Obviously you can get by without it (Lirik) but it can help improve connections made with your stream and make you more personable.
+
+  [Logitech](https://www.logitech.com/en-us/video/webcams) has some of the best webcams for streaming currently; so, I would highly recommend checking out their list. It's up to you what you want to buy. Just remember what type of quality your streaming at. If it's 60 fps, sure go for the super high quality camera where you can see your pores. If you are at 30 fps, consider somethin on the lower end, otherwise their might be a lot of tearing since your quality can't keep up. Your bit rate also matters for a lot in this.
+
+  ### Monitors
+  I have no real recommendation for monitors, since that it personal preference. This is mostly a side note to **really** consider having two monitors at a **bare** minimum. This allows for one monitor to be your content/what the viewer sees and the other allows for you to see your streaming software/chat/etc... This makes for a much easier time streaming and a cleaner workflow.
 
 ## Special Setups
+  Dual computer setups can be very beneficial for hardcore streamers. This allows for having one dedicated PC for streaming and gaming respectively. This way all the streaming software and encoding doesn't drag down the performance of your gaming setup. This setup makes use of capture cards to get the feed from your gaming PC to your streaming PC. So, it is definitely worth the trouble, but only if you need the upmost quality/performance and are willing to drop quite a substantial amount of money.
 
+  Twitch themselves have a article going into depth about how to go about setting up dual pcs for streaming. https://help.twitch.tv/customer/en/portal/articles/1988680-broadcasting-with-two-computers
 
 ## Full Startup Guide
 
