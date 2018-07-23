@@ -1,7 +1,7 @@
-# Streaming Tutorial / Resources
+# Streaming Tutorial / Resources - Zachary Kipping (zkp64)
 
 ## Overview
-  This tutorial is going to go over everything you may need to start streaming on the web.
+  This tutorial is going to go over everything you may need to start streaming on the web. This will be useful for anyone looking to stream for person or commercial use. Streaming is starting to become a large phenomenon on the internet and companies/individuals can make great use of it.
 
   Topics Included:
 
@@ -103,13 +103,15 @@
    * 1280x720
    * 30 fps
    * 96 audio bit rate
-  I end up with a video bit rate of around 2850 and a required internet Upload plan of 3.576 Mbps. Earlier I recommended around 3000-4000 for most people. This is because the higher bitrate after your minimum will help reduce choppyness of frames for your viewers.
+  I end up with a video bit rate of around 2850 and a required internet Upload plan of 3.576 Mbps. 
+  
+  Earlier I recommended around 3000-4000 for most people. This is because the higher bitrate after your minimum will help reduce choppyness of frames for your viewers.
 
   With a 3500 bitrate I would recommend around a 5 Mbps upload plan. Nothing outrageous, but still very necessary. If you want to start streaming in full 1920x1080 with 60 fps it the Mbps start to add up fast.
 
   In terms of download rate, just make sure your rates/ping are good enough and consistent enough to be a good viewing and playing experience for everyone. Plus if you ever need to download a game on the fly, having 100 Mbps down can really help tackle that problem. 
   
-  Also **please** make sure to vet your ISPs thoroughly and get familiar with calling their support lines if necessary. Having your internet throttled or go out in the middle of a stream can be embarrassing for starters but also catastrophic for maintaining viewership.
+  Also **please** make sure to vet your ISPs thoroughly and get familiar with calling their support lines if necessary. Having your internet throttled or go out in the middle of a stream can be embarrassing for starters, but also catastrophic for maintaining viewership.
 
 ## Peripherals
 
