@@ -1,5 +1,7 @@
 # Full Startup Guide - Using Twitch, OBS, and StreamLabs
 
+[Back To Main Page](./README.md)
+
 ## Twitch
   First you will want to [signup](https://www.twitch.tv/signup) on Twitch if you haven't already.
 
@@ -111,11 +113,11 @@
   #### Add Mic Filter
   To add a filter to your mic, click the settings cog button to the right of your mic level and select filters.
 
-  ![OBS Add Mic Filter](./images/obs-add-filter.PNG)
+  ![OBS Add Mic Filter](./images/obs-add-filter-select.PNG)
 
   Inside the next screen, add a new filter to your filter list by clicking the + button in the bottom-left corner. From this popup list you can select the filter you want. Go ahead and select Noise Gate.
 
-  ![OBS Add Mic Filter Options](./images/obs-add-filter-options.PNG)
+  ![OBS Add Mic Filter Options](./images/obs-add-filter-options-menu.PNG)
 
   In the previous Image you can see the Noise Gate I already have added to my mic. The noise gate is going to limit the activation range of your mic. I happen to have my set the defaults, because they actually work pretty well for me, but if your mic is more or less sensitive then you can adjust the range to your needs.
 
