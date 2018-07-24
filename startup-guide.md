@@ -13,11 +13,11 @@
 
   ![Twitch Menu Dropdown](./images/menu-dropdown.PNG)
 
-  Once in the dashboard proceed to the Channel option under Settings in the left bar.
+  Once in the dashboard, proceed to the Channel option under Settings in the left bar.
 
   ![Twitch Select Channel Settings](./images/select-channel-settings.PNG)
 
-  This page shows a general list of settings/options you can enable for your stream. They are entirely self preference; so, take the time now to go over them and see if you would want it or continue here.
+  This page shows a general list of settings/options you can enable for your stream. They are entirely self preference; so, take the time now to go over them and see if you would want to enable any of these.
 
   The key part you will see is your Stream Key. This will be given to OBS to allow the software to stream to your respective channel. Either copy this now or keep a reference to this page.
 
@@ -33,15 +33,15 @@
 
   The installation process is quite easy, just keep hitting next. There aren't really any options unless you are picky as to where it is installed on your HD/SSD.
 
-  When you first launch the app, it will look something like below. Ignore my scenes that I already have setup, yours should have just a default scene + source. We will be creating our own shortly
+  When you first launch the app, it will look something like below. Ignore my scenes that I already have setup, yours should have just a default scene + source. We will be creating our own in the next steps.
 
   ![OBS App Start](./images/obs-app-start.PNG)
 
   ### Settings
 
-  First let's start by going through the settings. Like I mentioned earlier OBS has quite a lot of settings to fine tune your stream experience. To go to the settings click "File" in the upper-left corner and then "Settings" in the dropdown
+  First let's start by going through the settings. Like I mentioned earlier OBS has quite a lot of settings to fine tune your stream experience. To go to the settings click "File" in the upper-left corner and then "Settings" in the dropdown.
 
-  ![OBS Select Settings](./images/obs-settings-select.PNG)
+  ![OBS Select Settings](./images/obs-select-settings.PNG)
 
   You will start out in the general settings. Here you can select your Language, Theme (dark all the way), and update checking. It also has general system preferences like confirmation dialogs, system docking, and snap aligning for the overlay editor.
 
@@ -53,7 +53,7 @@
 
   The next most important area is the Output Settings. Here you can select your encoder, rescale output, bit rate, and cpu usage/profile.
 
-  For the most general users I suggest using x264 for your encoder. If you remember the options you went through in the calculator from the [Internet](./README.md#internet) portion of the main README you can enter them here. I usually go with a 1280x720 rescale, 3500 bitrate, and a fast cpu usage. The cpu usage may take some tweaking to see what % you want OBS to be taking up while you are streaming. For the most part fast or below is good for quality though.
+  For the most general users I suggest using x264 for your encoder. If you remember the options you came up with whil using the calculator from the [Internet](./README.md#internet) portion of the main README, you can enter them here. I usually go with a 1280x720 rescale, 3500 bitrate, and a fast cpu usage. The cpu usage may take some tweaking to see what % you want OBS to be taking up while you are streaming. For the most part fast or below is good for quality though.
 
   ![OBS Output Settings](./images/obs-output-settings.PNG)
 
@@ -119,7 +119,7 @@
 
   ![OBS Add Mic Filter Options](./images/obs-add-filter-options-menu.PNG)
 
-  In the previous Image you can see the Noise Gate I already have added to my mic. The noise gate is going to limit the activation range of your mic. I happen to have my set the defaults, because they actually work pretty well for me, but if your mic is more or less sensitive then you can adjust the range to your needs.
+  In the previous Image you can see the Noise Gate I already have added to my mic. The noise gate is going to limit the activation range of your mic. I happen to have mine set to the defaults, because they actually work pretty well for me. If your mic is more or less sensitive, though, then you can adjust the range to your needs.
 
   Next add a Compressor filter. The compressor will automatically lower your mic level if your voice or any noise ends up spiking. For example if you start yelling or talking louder than usual. I usually leave this at the default settings as well, since it suits my needs well enough.
 
@@ -136,11 +136,11 @@
 
   ![StreamLabs Login](./images/streamlabs-login.PNG)
 
-  Once you login you should land on a dashboard screen like below. This page should you any and all statistics with your stream: follows, subs, donations, etc...
+  Once you login you should land on a dashboard screen like below. This page shows you any and all statistics with your stream: follows, subs, donations, etc...
 
   ![StreamLabs Dashboard](./images/streamlabs-dashboard.PNG)
 
-  In the dashboard click on the Alert Box button under widgets in the left navigation menu (see picture above). Once on this Alert Box page, scroll down until you see the Widget URL. You can either launch it into a seperate window and select this as a browser source in OBS or you can use the url itself and add it as a source itself. The latter method is easier longterm since you don't need to remember to launch the alert box stream to stream.
+  In the dashboard click on the Alert Box button under widgets in the left navigation menu (see picture above). Once on this Alert Box page, scroll down until you see the Widget URL. You can either launch it into a seperate window and select this as a browser source in OBS or you can use the url itself and add it as a browser source. The latter method is easier longterm since you don't need to remember to launch the alert box stream to stream and what I will use in the next step.
 
   ![StreamLabs Alert Box](./images/streamlabs-alertbox.PNG)
 
@@ -152,13 +152,12 @@
 
   ![StreamLabs Test Button](./images/streamlabs-test-button.PNG)
 
-  Hurry back to your OBS and you should see the text appear your where source is on the Overlay Editor (see below for example).
+  Hurry back to your OBS and you should see the text appear where your source is on the Overlay Editor (see below for example).
 
   ![StreamLabs Alertbox Test](./images/streamlabs-alertbox-test.PNG)
 
   In the alertbox page you can edit pretty much anything about your notifications. You can add images, gifs, music, sounds, etc...
 
-
-  Overall this concludes this guide. Once you have finished this you will be setup on Twitch, OBS, and StreamLabs. You are fully setup with how to make scenes, source, filters, and linking StreamLab alerts to display on your stream. You can see your statistics in StreamLabs or on the Twitch dasboard. Remember this is only breaking the surface there is a lot you can do with the tools/services, only your imagination is the limiter.
+  Overall this concludes this guide. Once you have finished this you will be setup on Twitch, OBS, and StreamLabs. You are fully setup with how to make scenes, source, filters, and linking StreamLab alerts to display on your stream. You can see your statistics in StreamLabs or on the Twitch dashboard. Remember this is only breaking the surface. There is a lot you can do with these tools/services, only your imagination is the limiter.
 
   Remember to **always** have fun streaming!
